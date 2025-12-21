@@ -20,11 +20,16 @@ DaVinci Resolve on Linux can be picky with video formats. I got tired of typing 
 
 ## Note
 
-This is a learning project and a personal tool made by a super new student. It works for what I need, but your mileage may vary. Feel free to fork it!
+This is a learning project and a personal tool made by a super new student. It works for what I need, but your mileage may vary. Feel free to fork it and have fun with it!
+
+## Dependencies
+
+This application **requires FFmpeg** to be installed on the system, use your package manager or check https://ffmpeg.org/download.html
 
 ## Acknowledgements
 
-This project was made possible thanks to the following tools:
+This project was made thanks to:
 
-- [FFmpeg](https://www.ffmpeg.org/)
-- [Flet](https://github.com/flet-dev/flet)
+- **FFmpeg** – used for video conversion.
+- **Flet** – UI framework used by this app.
+

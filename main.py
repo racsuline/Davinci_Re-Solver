@@ -14,30 +14,6 @@ def main(page: ft.Page):
     page.title = "Davinci Re-Solver for Linux"
     page.padding = 10
     page.theme_mode = ft.ThemeMode.SYSTEM
-    
-    """""
-    no tiene sentido usar esto todavia
-    def open_url():
-        page.launch_url('https://github.com/racsuline/Davinci-Solver')
-
-    
-    burguer = ft.Container(
-        ft.PopupMenuButton(
-            tooltip = "Settings",
-            icon = ft.Icons.MENU,
-            height = 48,
-            width = 48,
-            items = [
-                ft.PopupMenuItem(
-                    content = ft.Text("Github Repo", theme_style=ft.TextThemeStyle.LABEL_MEDIUM, text_align = ft.TextAlign.CENTER),
-                    on_click = lambda e: open_url()
-                )
-            ]
-        ),
-        padding=ft.padding.only(right=-10),
-        border_radius=ft.border_radius.all(3),
-    )
-    """
 
     directorio = ft.Text("Output Folder: Not selected")
     info_row = ft.Row([directorio], alignment = ft.MainAxisAlignment.CENTER)
