@@ -1,3 +1,8 @@
+# Moving!
+
+This repository has been moved to [Codeberg](https://codeberg.org/racsu/Davinci_Re-Solver):
+https://codeberg.org/racsu/Davinci_Re-Solver
+
 # Davinci Re-Solver for Linux
 
 ![Davinci Re-Solver Screenshot](https://i.imgur.com/gMSPTNO.png)
